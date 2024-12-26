@@ -34,7 +34,7 @@ This will create a docker container with name ```test-port-louis-mysql-1```
 
 After that, let's create our ```.env``` file, it should look something like this:
 
-```json
+```js
 DATABASE_URL="mysql://root:root@localhost:3306/contacts_db"
 PORT=5000
 ```
